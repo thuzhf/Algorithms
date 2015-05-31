@@ -30,8 +30,8 @@ namespace zf {
 		tmp.clear();
 
 		std::vector<std::vector<T> > init;
-		init.push_back(std::vector<T>(1, x1));
 		init.push_back(std::vector<T>(1, x2));
+		init.push_back(std::vector<T>(1, x1));
 
 		std::vector<std::vector<T> > final_m = zf::matrix_pow(m, n - 2);
 		ret = zf::matrix_multiply(final_m, init)[0][0];
