@@ -1,3 +1,6 @@
+#ifndef FIBONACCI_HPP_
+#define FIBONACCI_HPP_
+
 #include "../defs.hpp"
 #include "../matrix_pow/matrix_pow.hpp"
 #include "../matrix_multiply/matrix_multiply.hpp"
@@ -39,3 +42,5 @@ namespace zf {
 		return ret;
 	}
 }
+
+#endif // FIBONACCI_HPP_
